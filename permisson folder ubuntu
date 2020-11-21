@@ -1,1 +1,8 @@
+permission to specific user
 sudo chown -v (username) (filename)
+
+permission to everyone
+sudo chmod a+rwx /path/to/file
+
+ganti all files permission + semua file dalem sub folder di dalem folder
+sudo chmod -R a+rwx /path/to/folder
